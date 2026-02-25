@@ -871,3 +871,272 @@ footer{
 
 }
 
+
+@media (min-width: 360px) and (max-width: 400px) {
+  
+  /* HEADER */
+  .header {
+    height: auto;
+    padding: 5px 0;
+  }
+  
+  .nav-list {
+    justify-content: center;
+    padding-right: 0;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .nav-item {
+    font-size: 13px;
+  }
+  
+  /* HOME SECTION */
+  .type {
+    padding-left: 5px;
+    padding-top: 80px;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .first {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .type-write::after {
+    font-size: 20px;
+  }
+  
+  .home img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+  }
+  
+  .intro {
+    width: 95%;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .media {
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .media .social {
+    width: 35px;
+    height: 35px;
+  }
+  
+  /* ABOUT SECTION */
+  .about-title {
+    font-size: 32px;
+  }
+  
+  .picture img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .note {
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  /* SKILLS SECTION */
+  .skill-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    gap: 12px;
+  }
+  
+  .card {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .card img {
+    width: 40px;
+  }
+  
+  .span {
+    font-size: 15px;
+  }
+  
+  /* PROJECTS SECTION */
+  .project-text {
+    font-size: 32px;
+  }
+  
+  .myproject {
+    gap: 20px;
+  }
+  
+  .Experience {
+    width: 280px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .Experience img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .Experience .app {
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .Experience button {
+    width: 80%;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  /* CONTACT SECTION */
+  .contact-text {
+    font-size: 28px;
+  }
+  
+  .contactme {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-note {
+    width: 95%;
+    font-size: 15px;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .contact-ph {
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .contact-form {
+    width: 95%;
+    padding: 15px;
+    gap: 15px;
+  }
+  
+  .form-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    height: 35px;
+  }
+  
+  textarea {
+    width: 100%;
+  }
+  
+  .contact-form button {
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .info {
+    font-size: 24px;
+  }
+  
+  /* FOOTER */
+  .foot {
+    font-size: 18px;
+    margin-left: 0;
+    text-align: center;
+    padding: 15px;
+  }
+}
+
+/* =======================
+   EXTRA SMALL SAMSUNG (320px - 359px)
+======================= */
+@media (max-width: 359px) {
+  
+  /* HEADER */
+  .nav-list {
+    gap: 5px;
+  }
+  
+  .nav-item {
+    font-size: 11px;
+  }
+  
+  /* HOME */
+  .first {
+    font-size: 24px;
+  }
+  
+  .text {
+    font-size: 18px;
+  }
+  
+  .type-write::after {
+    font-size: 18px;
+  }
+  
+  .home img {
+    width: 170px;
+    height: 170px;
+  }
+  
+  .intro {
+    font-size: 14px;
+  }
+  
+  /* SKILLS */
+  .card {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .card img {
+    width: 35px;
+  }
+  
+  .span {
+    font-size: 14px;
+  }
+  
+  /* PROJECTS */
+  .Experience {
+    width: 250px;
+  }
+  
+  /* CONTACT */
+  .contact-form button {
+    width: 90%;
+  }
+}
+
+
