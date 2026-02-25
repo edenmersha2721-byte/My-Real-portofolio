@@ -2012,6 +2012,127 @@ footer{
     width: 90%;
   }
 }
+/* =======================
+   SAMSUNG GALAXY A15 FIX - ADD THIS TO YOUR CSS
+======================= */
+@media (min-width: 360px) and (max-width: 400px) {
+  
+  /* FIXED NAVBAR - LARGER AND VISIBLE */
+  .header {
+    height: 55px !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .nav-list {
+    justify-content: center !important;
+    gap: 18px !important;
+    padding-right: 0 !important;
+  }
+  
+  .nav-item {
+    font-size: 18px !important;  /* Much larger and readable */
+    font-weight: 600 !important;
+  }
+  
+  /* FIXED TYPING ANIMATION */
+  .type-write::after {
+    font-size: 24px !important;
+    content: "Developer";
+    white-space: nowrap;
+  }
+  
+  .first {
+    font-size: 32px !important;
+  }
+  
+  .text {
+    font-size: 24px !important;
+  }
+  
+  /* FIXED PROJECTS SECTION */
+  .myproject {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 30px !important;
+    padding: 0 15px !important;
+  }
+  
+  .Experience {
+    width: 100% !important;
+    max-width: 340px !important;
+    height: auto !important;
+    padding-bottom: 20px !important;
+  }
+  
+  .Experience .app {
+    font-size: 22px !important;
+    text-align: center !important;
+    padding: 15px !important;
+  }
+  
+  /* FIX FOR BOOK LIST */
+  .Experience p, 
+  .Experience ul, 
+  .Experience li {
+    color: #E5E7EB !important;
+    font-size: 15px !important;
+    padding: 0 15px !important;
+  }
+  
+  .Experience ul {
+    list-style-type: none !important;
+    padding: 0 20px !important;
+  }
+  
+  .Experience li {
+    padding: 5px 0 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+  }
+  
+  /* FIX FOR BUTTONS */
+  .Experience button {
+    width: 80% !important;
+    height: 44px !important;
+    font-size: 16px !important;
+    margin: 15px auto !important;
+    display: block !important;
+  }
+  
+  .button {
+    background-color: #38BDF8 !important;
+    color: #020617 !important;
+    border-radius: 999px !important;
+    border: none !important;
+  }
+  
+  .button:hover {
+    background-color: #22C55E !important;
+  }
+  
+  /* HOME SECTION FIXES */
+  .home img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+  
+  .intro {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    width: 95% !important;
+  }
+  
+  /* SKILLS SECTION */
+  .card {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  
+  .span {
+    font-size: 16px !important;
+  }
+}
+
 
 
 
