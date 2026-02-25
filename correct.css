@@ -1600,33 +1600,40 @@ footer{
   /* HEADER */
   .header {
     height: auto;
+    padding: 10px 0;
   }
 
   /* NAV */
   .nav-list {
-       width:100%;
     justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
   }
 
   /* HOME */
   .home {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
   .type {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    padding: 100px 20px 20px;
+    padding: 100px 15px 20px;
     text-align: center;
   }
 
   .home img {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
   }
 
   .first {
@@ -1638,8 +1645,9 @@ footer{
   }
 
   .intro {
-    width: 100%;
+    width: 90%;
     font-size: 18px;
+    margin: 0 auto;
   }
 
   .media {
@@ -1652,13 +1660,20 @@ footer{
   }
 
   .eden {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
+  .picture img {
+    width: 280px;
+    height: 280px;
+  }
+
   .note {
-    font-size: 22px;
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
   }
 
   /* SKILLS */
@@ -1670,34 +1685,92 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
+    padding: 0 10px;
+  }
+  
+  .card {
+    width: 150px;
+    height: 150px;
   }
 
-  /* PROJECTS */
+  /* PROJECTS - FIXED SECTION */
   .project-text {
     font-size: 40px;
+    margin-bottom: 20px;
   }
- .Experience {
-    margin-left: 5px;
+  
+  .myproject {
+    flex-direction: column !important;  /* Force column layout */
+    align-items: center;
+    gap: 25px;
+    padding: 0 15px;
   }
-
+  
   .Experience {
-    width: 300px;
+    width: 100% !important;  /* Take full width of container */
+    max-width: 380px;        /* But don't get too wide */
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
   }
- .Experience img{
+  
+  .Experience img {
     width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .Experience .app {
+    font-size: 22px;
+    padding: 15px 15px 5px;
+    text-align: center;
+  }
+  
+  /* Fix for book list in second project */
+  .Experience p, 
+  .Experience ul, 
+  .Experience li {
+    font-size: 15px;
+    padding: 0 15px;
+    color: #CBD5E1;
+  }
+  
+  .Experience ul {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 10px 0;
+  }
+  
+  .Experience li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .Experience button {
+    width: 80%;
+    height: 44px;
+    font-size: 16px;
+    margin: 15px auto 10px;
   }
 
   /* CONTACT */
   .contactme {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 25px;
   }
 
-  .contact-note,
+  .contact-note {
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+
   .contact-form {
-    width: 100%;
+    width: 90%;
+    padding: 20px;
   }
 
   .contact-text {
@@ -1710,15 +1783,21 @@ footer{
   }
 
   .contact-form button {
-    width: 50%;
+    width: 60%;
+    margin: 10px auto;
   }
 
   .info {
     font-size: 26px;
     text-align: center;
   }
+  
+  /* Form group for mobile */
+  .form-group {
+    flex-direction: column;
+    gap: 5px;
+  }
 }
-
 /* =======================
    SMALL PHONES (480px)
 ======================= */
@@ -1746,4 +1825,5 @@ footer{
   }
 
 }
+
 
