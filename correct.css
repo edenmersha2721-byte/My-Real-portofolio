@@ -848,39 +848,26 @@ footer{
    SMALL PHONES (480px)
 ======================= */
 @media (max-width: 480px) {
-  .first {
-    font-size: 30px;
-  }
 
-  .skill-title,
-  .project-text {
-    font-size: 32px;
-  }
- .Experience {
-    margin-left: 5px;
-  }
-
-  .note {
-    font-size: 20px;
-  }
-
-  .contact-ph {
-    font-size: 22px;
-  }
-
-  .media img {
-    width: 40px;
-    height: 40px;
-  }
-
-  /* KEEP ROW EVEN ON SMALL SCREENS */
   .container,
   .myproject,
   .home,
   .type,
-  .contactme {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  .contactme,
+  .eden {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .home img {
+    width: 220px;
+    height: 220px;
+  }
+
 }
+
